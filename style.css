@@ -7,7 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--clrWhite);
-  background-image: url(../img/img001.jpeg);
+  background-image: url(img/img001.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
