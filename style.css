@@ -34,7 +34,7 @@ body {
 .container-2 {
   display: flex;
   justify-content: center;
-  padding: 2em;
+  padding: 1em;
 }
 .box-1 {
   flex: 2;
