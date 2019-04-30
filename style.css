@@ -1,0 +1,53 @@
+:root {
+  --mainGreen: #17bebb;
+  --lightGreen: #daffef;
+  --clrOrange: #ffdabf;
+  --clrWhite: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--clrWhite);
+  background-image: url(../img/img001.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.btn:hover {
+  background-color: #924bcf;
+  color: var(--clrWhite);
+}
+.btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: #641ba2;
+  color: var(--clrWhite);
+  outline: none;
+}
+.container {
+  display: flex;
+}
+.container > div {
+  padding: 1em;
+  height: 50vh;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+.box-1 {
+  flex: 2;
+  text-align: center;
+  background-color: var(--mainGreen);
+}
+.box-2 {
+  flex: 2;
+  text-align: center;
+  background-color: var(--lightGreen);
+}
+.box-3 {
+  flex: 2;
+  text-align: center;
+  background-color: var(--clrOrange);
+}
